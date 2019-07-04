@@ -20,8 +20,9 @@
     
     paint = [[Paint alloc] init];
     
-    [self setToolColor:[UIColor blackColor]];
-    [self setToolThickness:5];
+    [self setToolColor:[UIColor colorWithDisplayP3Red:0 green:0 blue:0 alpha:1]];
+    [self setToolThickness:3];
+    [self setToolOpacity:0.1];
     
     [self.path setLineCapStyle:kCGLineCapRound];
     [self.path setLineJoinStyle:kCGLineJoinRound];
@@ -55,6 +56,14 @@
 -(UIColor *)getToolColor
 {
     return paint.color;
+}
+
+- (CGFloat)getToolOpacity {
+    return paint.opacity;
+}
+
+- (void)setToolOpacity:(CGFloat)opacity {
+    paint.opacity = opacity;
 }
 
 @end

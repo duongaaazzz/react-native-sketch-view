@@ -14,7 +14,7 @@
 -(instancetype)initWithPathPaint:(Paint *) pathPaint
 {
     self = [super init];
-    self.color = [UIColor colorWithCGColor:[pathPaint.color CGColor]];
+    self.color = [UIColor colorWithDisplayP3Red:11 green:12 blue:16 alpha:0.1];
     self.thickness = pathPaint.thickness;
     return self;
 }

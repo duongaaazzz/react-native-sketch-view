@@ -9,6 +9,7 @@
 #import "SketchView.h"
 #import "PenSketchTool.h"
 #import "EraserSketchTool.h"
+#import "UIColor+HexString.h"
 
 @implementation SketchView
 {
@@ -110,6 +111,14 @@
     return image;
 }
 
+-(void)setColor:(float)red green:(float)green blue:(float)blue alpha:(float) alpha
+{
+    [(PenSketchTool *)penTool setToolColor:[UIColor colorWithDisplayP3Red:red/255.0 green:green/255.0 blue:blue/255.0 alpha:alpha]];
+}
 
+-(void)setThickness:(float)thickness
+{
+    [(PenSketchTool *)penTool setToolThickness:thickness];
+}
 
 @end

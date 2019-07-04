@@ -15,5 +15,7 @@
 -(void) clear;
 -(void)setToolType:(SketchToolType) toolType;
 -(void)setViewImage:(UIImage *)image;
+-(void)setColor:(float)red green:(float)green blue:(float)blue  alpha:(float) alpha;
+-(void)setThickness:(float)thickness;
 
 @end

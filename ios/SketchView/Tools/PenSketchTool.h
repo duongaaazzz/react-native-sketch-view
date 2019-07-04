@@ -9,7 +9,8 @@
 #import "PathTrackingSketchTool.h"
 #import "ToolThickness.h"
 #import "ToolColor.h"
+#import "ToolOpacity.h"
 
-@interface PenSketchTool : PathTrackingSketchTool<ToolThickness, ToolColor>
+@interface PenSketchTool : PathTrackingSketchTool<ToolThickness, ToolColor, ToolOpacity>
 
 @end

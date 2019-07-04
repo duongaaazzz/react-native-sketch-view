@@ -13,6 +13,7 @@
 
 @property UIColor *color;
 @property CGFloat thickness;
+@property CGFloat opacity;
 
 -(instancetype)initWithPathPaint:(Paint *) pathPaint;
 
