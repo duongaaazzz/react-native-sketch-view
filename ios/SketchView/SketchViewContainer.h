@@ -10,12 +10,13 @@
 #import "SketchView.h"
 #import "SketchFile.h"
 
-@interface SketchViewContainer : UIView
+@interface SketchViewContainer : UIView <UIGestureRecognizerDelegate>
 
-@property (unsafe_unretained, nonatomic) IBOutlet SketchView *sketchView;
+@property(unsafe_unretained, nonatomic) IBOutlet SketchView *sketchView;
 
--(SketchFile *)saveToLocalCache;
--(BOOL)openSketchFile:(NSString *)localFilePath;
-
+- (SketchFile *)saveToLocalCache;
+- (BOOL)openSketchFile:(NSString *)localFilePath;
+- (void)addZoomGestureWithMin:(CGFloat)min andMax:(CGFloat)max;
+- (void)resetScale;
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F3CDFF22CDA51100229B9B /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F3CDFE22CDA51100229B9B /* UIColor+HexString.m */; };
 		6B37E23B1E9D4235006883C6 /* SketchFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B37E2351E9D4235006883C6 /* SketchFile.m */; };
 		6B37E23C1E9D4235006883C6 /* SketchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B37E2371E9D4235006883C6 /* SketchView.m */; };
 		6B37E23D1E9D4235006883C6 /* SketchViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B37E2391E9D4235006883C6 /* SketchViewContainer.m */; };
@@ -90,6 +91,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04F3CDFD22CDA51100229B9B /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "SketchView/UIColor+HexString.h"; sourceTree = "<group>"; };
+		04F3CDFE22CDA51100229B9B /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "SketchView/UIColor+HexString.m"; sourceTree = "<group>"; };
 		134814201AA4EA6300B7C361 /* libRNSketchView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNSketchView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B37E2341E9D4235006883C6 /* SketchFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SketchFile.h; path = SketchView/SketchFile.h; sourceTree = SOURCE_ROOT; };
 		6B37E2351E9D4235006883C6 /* SketchFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SketchFile.m; path = SketchView/SketchFile.m; sourceTree = SOURCE_ROOT; };
@@ -137,6 +140,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				04F3CDFD22CDA51100229B9B /* UIColor+HexString.h */,
+				04F3CDFE22CDA51100229B9B /* UIColor+HexString.m */,
 				6B5936A31E9BC4D00075024B /* SketchView */,
 				B3E7B5881CC2AC0600A0062D /* RNSketchViewManager.h */,
 				B3E7B5891CC2AC0600A0062D /* RNSketchViewManager.m */,
@@ -242,6 +247,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -324,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F3CDFF22CDA51100229B9B /* UIColor+HexString.m in Sources */,
 				6B37E24B1E9D4257006883C6 /* Paint.m in Sources */,
 				6B37E23D1E9D4235006883C6 /* SketchViewContainer.m in Sources */,
 				6B37E24C1E9D4257006883C6 /* PathTrackingSketchTool.m in Sources */,
