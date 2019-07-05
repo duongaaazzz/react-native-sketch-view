@@ -91,6 +91,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		044E6E8E22CF4DEC00AB5ED5 /* ToolOpacity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToolOpacity.h; path = SketchView/Tools/ToolOpacity.h; sourceTree = SOURCE_ROOT; };
 		04F3CDFD22CDA51100229B9B /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "SketchView/UIColor+HexString.h"; sourceTree = "<group>"; };
 		04F3CDFE22CDA51100229B9B /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "SketchView/UIColor+HexString.m"; sourceTree = "<group>"; };
 		134814201AA4EA6300B7C361 /* libRNSketchView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNSketchView.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +154,7 @@
 		6B37E2331E9D41ED006883C6 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				044E6E8E22CF4DEC00AB5ED5 /* ToolOpacity.h */,
 				6B37E23E1E9D4256006883C6 /* EraserSketchTool.h */,
 				6B37E23F1E9D4256006883C6 /* EraserSketchTool.m */,
 				6B37E2401E9D4256006883C6 /* Paint.h */,
